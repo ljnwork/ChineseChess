@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacnground" >
+
+    <Button
+        android:id="@+id/bt_menu_startgame"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="startgame"
+        android:text="开始游戏" />
+
+    <Button
+        android:id="@+id/bt_menu_opensound"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_menu_startgame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="opensound"
+        android:text="开启声音" />
+
+    <Button
+        android:id="@+id/bt_menu_help"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_menu_opensound"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="help"
+        android:text="帮助" />
+
+    <Button
+        android:id="@+id/bt_menu_exit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_menu_help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="exit"
+        android:text="退出" />
+
+</RelativeLayout>
